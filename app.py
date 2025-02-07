@@ -41,7 +41,7 @@ def get_conversational_chain():
     prompt_template = """
     Answer the question as detailed as possible from the provided context, make sure to provide all the details, if the answer is not in
     provided context just say, "answer is not available in the context", don't provide the wrong answer.
-    If there is 4 numerical columns in table, first 2 for months ended 31 march, next 2 for year ended march 31 
+    If there is 4 numerical columns in table, first 2 for months ended 31 march 2024 and 2023, next 2 for year ended march 31 2024 and 2023
     If there is 2 numerical columns then those are march 31 2024, march 31 2023 in a row. These are for numerical columns only.
     
     Context:\n{context}?\n
